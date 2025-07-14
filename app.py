@@ -375,4 +375,4 @@ def export_csv():
 if __name__ == '__main__':
     # We set use_reloader=False because we are running a background thread, 
     # which can cause issues with Flask's auto-reloader.
-    app.run(debug=True, host='0.0.0.0', port=8502, use_reloader=False)
+    app.run(debug=True, host='0.0.0.0', port=8501, use_reloader=False)
